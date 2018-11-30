@@ -1,6 +1,6 @@
 # madisonparkingapp
 
-> backend of madison parking app
+> A Madison parking app.
 
 ## About
 

@@ -1,20 +1,20 @@
 {
   "name": "madisonparkingapp",
-  "description": "backend of madison parking app",
+  "description": "A Madison parking app.",
   "version": "0.0.0",
   "homepage": "",
-  "main": "",
+  "main": "src",
   "keywords": [
     "feathers"
   ],
   "author": {
     "name": "",
-    "email": ""
+    "email": "lopezcd"
   },
   "contributors": [],
   "bugs": {},
   "directories": {
-    "lib": "",
+    "lib": "src",
     "test": "test/"
   },
   "engines": {
@@ -22,11 +22,11 @@
     "npm": ">= 3.0.0"
   },
   "scripts": {
-    "test": "npm run eslint && NODE_ENV= npm run mocha",
-    "eslint": "eslint /. test/. --config .eslintrc.json",
-    "dev": "nodemon /",
-    "start": "node /",
-    "mocha": "mocha test/ --recursive --exit"
+    "test": "npm run eslint && NODE_ENV= npm run jest",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "dev": "nodemon src/",
+    "start": "node src/",
+    "jest": "jest"
   },
   "dependencies": {
     "@feathersjs/configuration": "^2.0.4",
@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "mocha": "^5.2.0",
+    "jest": "^23.6.0",
     "nodemon": "^1.18.7",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
