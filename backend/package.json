@@ -1,8 +1,12 @@
 {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selimmartinez/madisonparkingapp"
+  },
   "name": "madisonparkingapp",
   "description": "A Madison parking app.",
   "version": "0.0.0",
-  "homepage": "",
+  "homepage": "https://github.com/selimmartinez/madisonparkingapp",
   "main": "src",
   "keywords": [
     "feathers"
